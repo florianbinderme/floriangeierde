@@ -3,6 +3,7 @@ $font-size: 120%;
 
 $color-default: #666666;
 $color-blue: #09C;
+$color-blue-hover: transparentize($color-blue, 0.8);
 $color-description: transparentize($color-default, 0.1);
 
 $shadow-blue: transparentize($color-default, 0.8);
