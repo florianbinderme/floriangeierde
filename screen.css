@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  background: rgba(0, 0, 0, 0.05) url("assets/graphics/background.jpg");
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 80px 0 40px 0; }
+  body header {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    width: 600px; }
+    body header h1 a {
+      background: #009ee0;
+      color: #FFF;
+      padding: 0px 10px 1px 10px;
+      font-size: 44px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.075);
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1); }
+  body .paginator {
+    margin: 0 auto;
+    width: 600px;
+    color: rgba(0, 0, 0, 0.7); }
+    body .paginator .prev, body .paginator .next {
+      width: 260px;
+      float: left; }
+    body .paginator .prev {
+      text-align: right; }
+    body .paginator .page {
+      text-align: center;
+      width: 80px;
+      float: left; }
+    body .paginator span {
+      background: #FFF;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      padding: 6px; }
+    body .paginator a {
+      color: rgba(0, 0, 0, 0.7);
+      text-decoration: none; }
+    body .paginator a:hover {
+      border-color: rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06);
+      -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06);
+      box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06); }
+  body section {
+    margin: 0 auto;
+    /* width: 934px; */ }
+    body section article {
+      line-height: 25px;
+      padding: 20px 0 20px 0;
+      margin: 0 auto 30px auto; }
+      body section article h2 {
+        font-weight: 400;
+        text-align: center;
+        margin: 10px 0; }
+        body section article h2 a {
+          color: rgba(0, 0, 0, 0.7);
+          text-decoration: none; }
+      body section article .date {
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 13px;
+        font-style: italic;
+        text-align: center;
+        margin: 0 0 10px 0; }
+        body section article .date a {
+          color: rgba(0, 0, 0, 0.4);
+          text-decoration: none; }
+      body section article.text {
+        padding: 20px 30px;
+        width: 552px;
+        background: #FFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px; }
+        body section article.text p a {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          color: rgba(0, 0, 0, 0.7);
+          text-decoration: none;
+          padding-bottom: 2px; }
+          body section article.text p a:hover {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      body section article.image {
+        width: 600px;
+        text-align: center;
+        background: #FFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        padding: 6px; }
+  body footer {
+    padding: 0 0 0 0;
+    color: rgba(0, 0, 0, 0.3);
+    /* font-style: italic; */
+    font-weight: 400;
+    line-height: 23px;
+    margin: 20px auto 0 auto;
+    width: 600px; }
+    body footer a {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      color: rgba(0, 0, 0, 0.4);
+      /* font-weight: bold; */
+      text-decoration: none;
+      padding-bottom: 2px; }
+      body footer a:hover {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
