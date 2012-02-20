@@ -1,8 +1,0 @@
-auto:           true
-
-source:         .
-destination:    ./_site
-
-markdown:       maruku
-
-title:          Florian Geier
