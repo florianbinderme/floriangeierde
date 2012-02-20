@@ -4,7 +4,7 @@ markdown:    maruku
 paginate:    10
 permalink:   /:year/:month/:day/:title
 
-url:         http://floriangeierde.github.com/floriangeierde/
+url:         http://floriangeierde.github.com/floriangeierde
 title:       Florian Geier
 
 exclude:     screen.scss, Gemfile, Gemfile.lock
