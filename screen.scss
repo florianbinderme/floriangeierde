@@ -1,0 +1,163 @@
+$color_cyan: #009ee0;
+
+@mixin jekyll-border-radius($radius) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin jekyll-box-shadow($horizontal, $vertical, $blur, $color) {
+	-moz-box-shadow: $horizontal $vertical $blur $color;
+	-webkit-box-shadow: $horizontal $vertical $blur $color;
+	box-shadow: $horizontal $vertical $blur $color;
+}
+
+* { margin: 0; padding: 0; border: 0; }
+
+body {
+	background: rgba(0, 0, 0, 0.05) url('assets/graphics/background.jpg');
+	color: rgba(0, 0, 0, 0.6);
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 80px 0 40px 0;
+	
+	header {
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		margin: 0 auto 40px auto;
+		text-align: center;
+		width: 600px;
+		
+		h1 a {
+			background: $color_cyan;
+			color: #FFF;
+			padding: 0px 10px 1px 10px;
+			font-size: 44px;
+			font-weight: 700;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.075);
+			@include jekyll-border-radius(6px);
+			@include jekyll-box-shadow(3px, 3px, 0, rgba(0, 0, 0, 0.1));
+		}
+	}
+	
+	.paginator {
+		margin: 0 auto;
+		width: 600px;
+		color: rgba(0, 0, 0, 0.7);
+		
+		.prev, .next {
+			width: 260px;
+			float: left;
+		}
+		.prev { text-align: right; }
+		.page {
+			text-align: center;
+			width: 80px;
+			float: left;
+		}
+
+		span {
+			background: #FFF;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+			@include jekyll-border-radius(6px);
+			padding: 6px;
+		}
+		
+		a {
+			color: rgba(0, 0, 0, 0.7);
+			text-decoration: none;
+		}
+		a:hover {
+			border-color: rgba(0, 0, 0, 0.15);
+			@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.06));
+		}
+	}
+	
+	section {
+		margin: 0 auto;
+		/* width: 934px; */
+		
+		article {
+			line-height: 25px;
+			padding: 20px 0 20px 0;
+			margin: 0 auto 30px auto;
+			
+			h2 {
+				font-weight: 400;
+				text-align: center;
+				margin: 10px 0;
+				
+				a {
+					color: rgba(0, 0, 0, 0.7);
+					text-decoration: none;
+				}
+			}
+			
+			.date {
+				color: rgba(0, 0, 0, 0.4);
+				font-size: 13px;
+				font-style: italic;
+				text-align: center;
+				margin: 0 0 10px 0;
+				
+				a {
+					color: rgba(0, 0, 0, 0.4);
+					text-decoration: none;
+				}
+			}
+			
+			&.text {
+				padding: 20px 30px;
+				width: 552px;
+				background: #FFF;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+				@include jekyll-border-radius(6px);
+				
+				p a {
+					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+					color: rgba(0, 0, 0, 0.7);
+					text-decoration: none;
+					padding-bottom: 2px;
+					
+					&:hover {
+						border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+					}
+				}
+			}
+			&.image {
+				width: 600px;
+				
+				text-align: center;
+				background: #FFF;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+				@include jekyll-border-radius(6px);
+				padding: 6px;
+			}
+		}
+	}
+	
+	footer {
+		padding: 0 0 0 0;
+		color: rgba(0, 0, 0, 0.3);
+		/* font-style: italic; */
+		font-weight: 400;
+		line-height: 23px;
+		margin: 20px auto 0 auto;
+		width: 600px;
+		
+		a {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+			color: rgba(0, 0, 0, 0.4);
+			/* font-weight: bold; */
+			text-decoration: none;
+			padding-bottom: 2px;
+			
+			&:hover { border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
+		}
+	}
+}
