@@ -4,7 +4,7 @@ markdown:    maruku
 paginate:    10
 permalink:   /:year/:month/:day/:title
 
-url:         http://www.floriangeier.info
+url:         http://www.floriangeier.de
 title:       Florian Geier
 
 exclude:     screen.scss, Gemfile, Gemfile.lock
