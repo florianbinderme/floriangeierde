@@ -5,8 +5,15 @@
 		<link>http://127.0.0.1:4000</link>
 		
 			<item>
+				<title>Yakitori</title>
+				<description>&lt;img src=&quot;assets/images/post/2012/02/21/yakitori.jpg&quot; alt=&quot;Yakitori&quot; /&gt;</description>
+				<published>2012-02-21 00:00:00 +0100</published>
+				<link>http://127.0.0.1:4000/2012/02/21/yakitori</link>
+			</item>
+		
+			<item>
 				<title>Initialen</title>
-				<description>&lt;img src=&quot;http://distilleryimage8.instagram.com/566938345bc711e19e4a12313813ffc0_7.jpg&quot; width=&quot;600&quot; /&gt;
+				<description>&lt;img src=&quot;assets/images/post/2012/02/20/566938345bc711e19e4a12313813ffc0_7.jpeg&quot; alt=&quot;Initialen&quot; /&gt;
 </description>
 				<published>2012-02-20 00:00:00 +0100</published>
 				<link>http://127.0.0.1:4000/2012/02/20/initialen</link>
@@ -16,7 +23,7 @@
 				<title>Blog online!</title>
 				<description>Mein eigener Blog ist nun online, viel Spaß euch beim mit verfolgen.&lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;http://distilleryimage4.instagram.com/ad2c4c4e5b2011e18bb812313804a181_7.jpg&quot; width=&quot;600&quot; /&gt;</description>
+&lt;img src=&quot;assets/images/post/2012/02/19/ad2c4c4e5b2011e18bb812313804a181_7.jpeg&quot; alt=&quot;Florian Geier - Blog online!&quot; /&gt;</description>
 				<published>2012-02-19 00:00:00 +0100</published>
 				<link>http://127.0.0.1:4000/2012/02/19/blog-online</link>
 			</item>
