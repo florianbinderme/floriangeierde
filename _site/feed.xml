@@ -5,6 +5,13 @@
 		<link>http://127.0.0.1:4000</link>
 		
 			<item>
+				<title>Yakitori</title>
+				<description>&lt;img src=&quot;assets/images/post/2012/02/21/yakitori.jpg&quot; alt=&quot;Yakitori&quot; /&gt;</description>
+				<published>2012-02-21 00:00:00 +0100</published>
+				<link>http://127.0.0.1:4000/2012/02/21/yakitori</link>
+			</item>
+		
+			<item>
 				<title>Initialen</title>
 				<description>&lt;img src=&quot;http://distilleryimage8.instagram.com/566938345bc711e19e4a12313813ffc0_7.jpg&quot; width=&quot;600&quot; /&gt;
 </description>
