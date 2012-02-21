@@ -76,6 +76,18 @@ body {
 		}
 	}
 	
+	.dsq-copy {
+		width: 600px;
+		margin: 0 auto;
+		text-align: right;
+		
+		a {
+			color: rgba(0, 0, 0, 0.3);
+			text-decoration: none;
+			padding-bottom: 2px;
+		}
+	}
+	
 	section {
 		margin: 0 auto;
 		/* width: 934px; */
@@ -130,13 +142,31 @@ body {
 			}
 			&.image {
 				width: 600px;
-				
 				text-align: center;
 				background: #FFF;
 				border: 1px solid rgba(0, 0, 0, 0.1);
 				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
 				@include jekyll-border-radius(6px);
-				padding: 6px;
+				padding: 6px 6px 0px 6px;
+				
+				img { @include jekyll-border-radius(6px); }
+			}
+			
+			&#disqus_thread {
+				#dsq-global-toolbar, #dsq-sort-by, #dsq-subscribe { display: none; }
+				
+				#dsq-account-dropdown {
+					a {
+						border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+						color: rgba(0, 0, 0, 0.7);
+						text-decoration: none;
+						padding-bottom: 2px;
+						
+						&:hover {
+							border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+						}
+					}
+				}
 			}
 		}
 	}
