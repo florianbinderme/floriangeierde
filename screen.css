@@ -61,6 +61,14 @@ body {
       -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06);
       -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06);
       box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.06); }
+  body .dsq-copy {
+    width: 600px;
+    margin: 0 auto;
+    text-align: right; }
+    body .dsq-copy a {
+      color: rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+      padding-bottom: 2px; }
   body section {
     margin: 0 auto;
     /* width: 934px; */ }
@@ -113,7 +121,20 @@ body {
         border-radius: 6px;
         -moz-border-radius: 6px;
         -webkit-border-radius: 6px;
-        padding: 6px; }
+        padding: 6px 6px 0px 6px; }
+        body section article.image img {
+          border-radius: 6px;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px; }
+      body section article#disqus_thread #dsq-global-toolbar, body section article#disqus_thread #dsq-sort-by, body section article#disqus_thread #dsq-subscribe {
+        display: none; }
+      body section article#disqus_thread #dsq-account-dropdown a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration: none;
+        padding-bottom: 2px; }
+        body section article#disqus_thread #dsq-account-dropdown a:hover {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   body footer {
     padding: 0 0 0 0;
     color: rgba(0, 0, 0, 0.3);

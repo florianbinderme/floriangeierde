@@ -2,9 +2,22 @@
 layout: default
 ---
 {% for post in paginator.posts %}
+	{% if post.comments %}
+	<script type="text/javascript">
+	  var disqus_shortname  = 'floriangeierde'; // required: replace example with your forum shortname
+	  var disqus_developer  = 1; // developer mode
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+	</script>
+	{% endif %}
 	<article class="{% if post.art == 'image' %}image{% else %}text{% endif %}">
 		<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-		<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
+		<p class="date">{{ post.date | date: "%d.%m.%Y" }}{% if post.comments %} - <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a>{% endif %}</p>
 		<p>{{ post.content }}</p>
 	</article>
 {% endfor %}<br />
