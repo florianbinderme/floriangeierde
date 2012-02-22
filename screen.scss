@@ -129,6 +129,13 @@ body {
 				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
 				@include jekyll-border-radius(6px);
 				
+				.date a {
+					color: rgba(0, 0, 0, 0.4);
+					text-decoration: none;
+					padding: 0;
+					border-bottom: 0px;
+				}
+				
 				p a {
 					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 					color: rgba(0, 0, 0, 0.7);

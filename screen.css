@@ -103,6 +103,11 @@ body {
         border-radius: 6px;
         -moz-border-radius: 6px;
         -webkit-border-radius: 6px; }
+        body section article.text .date a {
+          color: rgba(0, 0, 0, 0.4);
+          text-decoration: none;
+          padding: 0;
+          border-bottom: 0px; }
         body section article.text p a {
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           color: rgba(0, 0, 0, 0.7);
