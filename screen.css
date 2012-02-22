@@ -108,6 +108,8 @@ body {
           text-decoration: none;
           padding: 0;
           border-bottom: 0px; }
+          body section article.text .date a:hover {
+            border-bottom: 0px; }
         body section article.text p a {
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           color: rgba(0, 0, 0, 0.7);

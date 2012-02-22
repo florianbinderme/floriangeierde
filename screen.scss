@@ -134,6 +134,8 @@ body {
 					text-decoration: none;
 					padding: 0;
 					border-bottom: 0px;
+					
+					&:hover { border-bottom: 0px; }
 				}
 				
 				p a {
