@@ -5,6 +5,16 @@
 		<link>http://127.0.0.1:4000</link>
 		
 			<item>
+				<title>Kommentarfunktion</title>
+				<description>Auf euren Wunsch habe ich jetzt mal eine Kommentarfunktion eingebaut.&lt;br /&gt;
+Danke schon mal fürs kommentieren, damit die Arbeit nicht umsonst war!&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;PS: Demnächst kommt dann auch noch die Funktion zum teilen der Einträge über Twitter und Facebook.&lt;/i&gt;</description>
+				<published>2012-02-22 00:00:00 +0100</published>
+				<link>http://127.0.0.1:4000/2012/02/22/kommentarfunktion</link>
+			</item>
+		
+			<item>
 				<title>Yakitori</title>
 				<description>&lt;img src=&quot;assets/images/post/2012/02/21/yakitori.jpg&quot; alt=&quot;Yakitori&quot; /&gt;</description>
 				<published>2012-02-21 00:00:00 +0100</published>
