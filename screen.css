@@ -74,8 +74,58 @@ body {
     /* width: 934px; */ }
     body section article {
       line-height: 25px;
-      padding: 20px 0 20px 0;
-      margin: 0 auto 30px auto; }
+      padding: 20px 0 0 0;
+      width: 612px;
+      background: #FFF;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      margin: 0 auto 30px auto;
+      /*
+      			&.text {
+      				padding: 20px 30px;
+      				width: 552px;
+      				background: #FFF;
+      				border: 1px solid rgba(0, 0, 0, 0.1);
+      				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+      				@include jekyll-border-radius(6px);
+      				
+      				.date a {
+      					color: rgba(0, 0, 0, 0.4);
+      					text-decoration: none;
+      					padding: 0;
+      					border-bottom: 0px;
+      					
+      					&:hover { border-bottom: 0px; }
+      				}
+      				
+      				p a {
+      					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      					color: rgba(0, 0, 0, 0.7);
+      					text-decoration: none;
+      					padding-bottom: 2px;
+      					
+      					&:hover {
+      						border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      					}
+      				}
+      			}
+      			&.image {
+      				width: 600px;
+      				text-align: center;
+      				background: #FFF;
+      				border: 1px solid rgba(0, 0, 0, 0.1);
+      				@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+      				@include jekyll-border-radius(6px);
+      				padding: 6px 6px 0px 6px;
+      				
+      				img { @include jekyll-border-radius(6px); }
+      			}
+      */ }
       body section article h2 {
         font-weight: 400;
         text-align: center;
@@ -83,56 +133,29 @@ body {
         body section article h2 a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none; }
-      body section article .date {
-        color: rgba(0, 0, 0, 0.4);
-        font-size: 13px;
-        font-style: italic;
-        text-align: center;
-        margin: 0 0 10px 0; }
-        body section article .date a {
-          color: rgba(0, 0, 0, 0.4);
-          text-decoration: none; }
-      body section article.text {
-        padding: 20px 30px;
-        width: 552px;
-        background: #FFF;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
-        -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
-        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
+      body section article img {
+        padding: 0 6px 0 6px;
         border-radius: 6px;
         -moz-border-radius: 6px;
         -webkit-border-radius: 6px; }
-        body section article.text .date a {
-          color: rgba(0, 0, 0, 0.4);
-          text-decoration: none;
-          padding: 0;
-          border-bottom: 0px; }
-          body section article.text .date a:hover {
-            border-bottom: 0px; }
-        body section article.text p a {
+      body section article p {
+        padding: 0 30px 25px 30px; }
+        body section article p a {
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
           padding-bottom: 2px; }
-          body section article.text p a:hover {
+          body section article p a:hover {
             border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-      body section article.image {
-        width: 600px;
-        text-align: center;
-        background: #FFF;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
-        -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
-        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.03);
-        border-radius: 6px;
-        -moz-border-radius: 6px;
-        -webkit-border-radius: 6px;
-        padding: 6px 6px 0px 6px; }
-        body section article.image img {
-          border-radius: 6px;
-          -moz-border-radius: 6px;
-          -webkit-border-radius: 6px; }
+        body section article p.date {
+          color: rgba(0, 0, 0, 0.4);
+          font-size: 13px;
+          font-style: italic;
+          text-align: center;
+          margin: 0 0 10px 0; }
+          body section article p.date a {
+            color: rgba(0, 0, 0, 0.4);
+            text-decoration: none; }
       body section article#disqus_thread #dsq-global-toolbar, body section article#disqus_thread #dsq-sort-by, body section article#disqus_thread #dsq-subscribe {
         display: none; }
       body section article#disqus_thread #dsq-account-dropdown a {

@@ -94,7 +94,12 @@ body {
 		
 		article {
 			line-height: 25px;
-			padding: 20px 0 20px 0;
+			padding: 20px 0 0 0;
+			width: 612px;
+			background: #FFF;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			@include jekyll-box-shadow(2px, 2px, 0, rgba(0, 0, 0, 0.03));
+			@include jekyll-border-radius(6px);
 			margin: 0 auto 30px auto;
 			
 			h2 {
@@ -108,19 +113,41 @@ body {
 				}
 			}
 			
-			.date {
-				color: rgba(0, 0, 0, 0.4);
-				font-size: 13px;
-				font-style: italic;
-				text-align: center;
-				margin: 0 0 10px 0;
+			img {
+				padding: 0 6px 0 6px;
+				@include jekyll-border-radius(6px);
+			}
+						
+			p {
+				padding: 0 30px 25px 30px;
 				
 				a {
-					color: rgba(0, 0, 0, 0.4);
+					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+					color: rgba(0, 0, 0, 0.7);
 					text-decoration: none;
+					padding-bottom: 2px;
+					
+					&:hover {
+						border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+					}
 				}
+				
+				&.date {
+					color: rgba(0, 0, 0, 0.4);
+					font-size: 13px;
+					font-style: italic;
+					text-align: center;
+					margin: 0 0 10px 0;
+					
+					a {
+						color: rgba(0, 0, 0, 0.4);
+						text-decoration: none;
+					}
+				}
+			
 			}
 			
+/*
 			&.text {
 				padding: 20px 30px;
 				width: 552px;
@@ -160,6 +187,7 @@ body {
 				
 				img { @include jekyll-border-radius(6px); }
 			}
+*/
 			
 			&#disqus_thread {
 				#dsq-global-toolbar, #dsq-sort-by, #dsq-subscribe { display: none; }
