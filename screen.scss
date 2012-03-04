@@ -117,7 +117,11 @@ body {
 				padding: 0 6px 0 6px;
 				@include jekyll-border-radius(6px);
 			}
-						
+			
+			ul, ol {
+				margin: 0 0 0 50px;
+			}
+			
 			p {
 				padding: 0 30px 25px 30px;
 				
