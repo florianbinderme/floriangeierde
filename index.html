@@ -14,10 +14,10 @@ layout: default
     }());
 	</script>
 	{% endif %}
-	<article class="{% if post.art == 'image' %}image{% else %}text{% endif %}">
+	<article>
 		<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p class="date">{{ post.date | date: "%d.%m.%Y" }}{% if post.comments %} - <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a>{% endif %}</p>
-		<p>{{ post.content }}</p>
+		{{ post.content }}
 	</article>
 {% endfor %}<br />
 <br />
