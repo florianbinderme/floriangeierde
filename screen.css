@@ -156,15 +156,18 @@ body {
           body section article p.date a {
             color: rgba(0, 0, 0, 0.4);
             text-decoration: none; }
-      body section article#disqus_thread #dsq-global-toolbar, body section article#disqus_thread #dsq-sort-by, body section article#disqus_thread #dsq-subscribe {
-        display: none; }
-      body section article#disqus_thread #dsq-account-dropdown a {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        color: rgba(0, 0, 0, 0.7);
-        text-decoration: none;
-        padding-bottom: 2px; }
-        body section article#disqus_thread #dsq-account-dropdown a:hover {
-          border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      body section article#disqus_thread {
+        width: 552px;
+        padding: 0 30px; }
+        body section article#disqus_thread #dsq-global-toolbar, body section article#disqus_thread #dsq-sort-by, body section article#disqus_thread #dsq-subscribe {
+          display: none; }
+        body section article#disqus_thread #dsq-account-dropdown a {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          color: rgba(0, 0, 0, 0.7);
+          text-decoration: none;
+          padding-bottom: 2px; }
+          body section article#disqus_thread #dsq-account-dropdown a:hover {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   body footer {
     padding: 0 0 0 0;
     color: rgba(0, 0, 0, 0.3);
